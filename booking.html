@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Booking|AutoMob-Mechanic</title>
+</head>
+<body> 
+    <section>
+    <div>
+        <h1 style="text-align:left"><u>AutoMob-Mechanic</u></h1><br>
+        <a href="home.html" style="align-items:flex-start">Home</a> &nbsp;| &nbsp;
+        <a href="services.html" style="align-items:flex-start">Services</a> &nbsp;| &nbsp; 
+        <a href="booking.html" style="align-items:flex-start">Booking</a> &nbsp;| &nbsp;
+        
+        <a href="mailto:sidd454335@gmail.com" style="align-items: flex-start">sidd454335@gmail.com <span>&#9993;</span></a>  &nbsp; | &nbsp; 123456789 <span>&#9742;</span> <br>
+        &nbsp;
+        <hr>
+          </div>
+    </section>
+    
+    <section>
+        <h1>Book Your Service</h1> <br>
+        
+        <form action="Appointment.html">
+        Name:-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Name" required> <br>
+        <br>
+        EmailId:- &nbsp;&nbsp;<input type="email" placeholder="example@yahoo.com" required> <br> <br>
+        
+        Phone Number:- &nbsp;&nbsp;<input type="text" placeholder="123456789" required> <br> <br> <br>
+         Select Service:-
+        <select id="Select Service" required>
+            <option value="Preventive Maintenance Service">Preventive Maintenance Service</option>
+            <option value="Body Repair Service">Body Repair Service</option>
+            <option value="Car Care Service">Car Care Service</option> <br> <br>
+          </select>
+            <br><br> <br>
+            CarMaker:-&nbsp;&nbsp;<input type="text" id="Carmaker" list="CarMaker" required>
+            <datalist id="CarMaker">
+            <option value="Mahindra">
+            <option value="Honda">
+            <option value="Hyundai">
+            <option value="Ford">
+            <option value="Toyota">
+            <option value="Nissan">
+
+            </datalist>
+            
+        
+          <br><br><br>
+          Car model:- <input type="text" placeholder="Alto,Innova...." required> <br><br><br>
+          Fuel Type:-  <input type="radio" value="Petrol" name="Petrol">Petrol
+          <input type="radio" id="FuelType"value="Diesel" name="Diesel;"> Diesel
+          <input type="radio" value="Others" name="others">Others
+          <br><br><br>
+          Kilometers Ran: <input type="number" placeholder="km" required>
+          <br><br><br>
+         
+       
+         <button>Schedule an Appointment</button>
+
+          </form>
+        
+         
+          
+          
+    </section>
+</body>
+</html>
